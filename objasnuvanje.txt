@@ -1,6 +1,0 @@
-najprvo kreiravme child pipeline za da go dobieme RUUID na pajplajnot, taka sto
-staviv snap mapper i so pipe.ruuid ja izvlekovme informacijata i go zapisuvame noviot fajl so imeto na ruuid. na krajot dodavame snap pipeline execute
-i linkuvame vtora child pipeline kade sto kladov file read koj go skenira project folderot za file so RUUID-to.
-potoa so snap rest get koj go konfiguriravme da gi dobie site parametri na pajplajnot,
-giizvlekuva istite i gi zapisuva na nov fajl so ime “PipelineInfo”5b7548984dd5a8001fb7e9ca_658b9753-36df-4a80-b2ac-f6b125113537.txt
-na krajot kreirame parent pipeline koja gi povikuva dvete child pipelines.
